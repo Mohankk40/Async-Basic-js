@@ -27,7 +27,8 @@ A simple application that fetches random **Chuck Norris jokes** using an externa
 
 2️⃣ Weather App (Using OpenWeather API)
 A basic weather application that fetches and displays weather data for a city.
-📌 Features
+
+#### 📌 Features
 - Takes a city name as input.
 - Fetches current temperature, humidity, and weather conditions.
 - Uses the OpenWeather API to retrieve real-time weather data.
