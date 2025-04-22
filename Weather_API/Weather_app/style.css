@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+#app {
+  position: relative;
+  width: 414px;
+  height: 420px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 40px 0px;
+  margin-top: 25px;
+  overflow: hidden;
+  border-radius: 45px;
+  background: linear-gradient(3250deg,rgba(0, 155, 217, 1) 0%, rgb(121, 221, 244) 100%);
+}
+
+#searchBar {
+  display: flex;
+  padding: 0 40px;
+  margin-bottom:30px;
+}
+
+#searchBarInput {
+  background-color: none;
+  border: none;
+  outline: none;
+  width: 90%;
+  background: transparent;
+  color: #fff;
+  border-bottom: solid 1px lightblue
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+#info {
+  line-height: 0.5rem;
+  color: #fff;
+}
+
+#info h3 {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: .6em;
+}
+
+#description {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#temp {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#searchIcon {
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+#extraInfo {
+  position: absolute;;
+  bottom: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+#extraInfo h5 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}

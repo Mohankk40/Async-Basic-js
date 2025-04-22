@@ -1,0 +1,5 @@
+# Node modules and .json files
+node_modules
+
+# Environament variables
+.env

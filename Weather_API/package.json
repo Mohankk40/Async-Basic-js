@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "apicache": "^1.6.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "needle": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "name": "async_js",
+  "version": "1.0.0",
+  "description": "Three basic projects to understand and implement Async JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC"
+}

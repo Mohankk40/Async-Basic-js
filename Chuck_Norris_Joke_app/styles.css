@@ -1,0 +1,35 @@
+html{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-family: monospace;
+  background-color: #3a4042;
+}
+
+.container{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  background-color: #3a4042;
+  color: #00ff00;
+  text-align: center;
+}
+
+.container p{
+  line-height: 1.5em;
+  color: rgb(67, 175, 67);
+  margin-top: 50px;
+  margin-bottom: 150px;
+  padding: 5px 10px;
+}
+
+#loadingBtn{
+  background-color: transparent;
+  color: #00ff00;
+  border: 2px solid #00ff00;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
