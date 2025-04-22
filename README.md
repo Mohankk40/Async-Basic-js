@@ -17,7 +17,6 @@ A simple application that fetches random **Chuck Norris jokes** using an externa
    ```bash
    git clone <repository_url>
 
-
 - Navigate to the project folder:cd chuck-norris-joke-app
 
 - Open index.html in a browser to run the app.
@@ -51,7 +50,3 @@ A basic weather application that fetches and displays weather data for a city.
 
 🤝 Contributions
 Feel free to contribute! Open a pull request if you'd like to enhance any feature.
-
-This is formatted correctly for GitHub. Simply **copy and paste** this into your `README.md` file, and it should work perfectly! 🚀 Let me know if you need any modifications. 😊✨
-
-
